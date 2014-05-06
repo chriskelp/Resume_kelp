@@ -1,0 +1,99 @@
+/* Your Website Styles */
+
+
+/* Show Grid */
+
+body{
+	
+	background-color: teal;opacity:.8;
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+.container {
+	background: teal;
+}
+
+section{
+	background: lightblue;
+  
+  width: 170px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:20px;
+}
+
+header h1{
+	color: lightblue;
+	font-size:250%;
+}
+
+header h1::first-letter{
+	font-size:200%;
+	color:maroon;
+}
+
+header img{
+	
+	max-height: 250px;
+	max-width: 250px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.thumbnail{
+  background: lightblue;
+  float: right;
+  width: 170px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:20px;
+  color:maroon;
+  font-weight:bold;
+  
+}
+
+.thumbnail h5{
+
+  margin-bottom:0;
+  
+   
+}
+
+.thumbnail img{
+	max-height:150px;
+	max-width: 150px;
+   border-width: 10px;
+   border-color: white;
+}
+
+.thumbnail:hover{
+	font-size:120%;
+	}
+
+.smallthumb{
+	background: lightblue;
+  float: right;
+  width: 170px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:20px;
+  color:maroon;
+  font-weight:bold;
+}
+
+.smallthumb2{
+	background: lightblue;
+  float: right;
+  width: 170px;
+  margin: 10px;
+  padding: 10px;
+  border-radius:20px;
+  color:maroon;
+  
+}
+
+.phone::before{
+  content: "\2706";
+}
